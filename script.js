@@ -3,7 +3,7 @@ function expandGrid(){
     var container = document.getElementById("griid");
     if(l==1)
     {
-        container.innerHTML+= '<div class="box"><a href="https://en.wikipedia.org/wiki/Audi"><img class="crs" src="audi.jpg" alt="audi"><div class="tover"><br>AUDI</div></a></div><div class="box"><a href="https://en.wikipedia.org/wiki/BMW"><img class="crs" src="bmw.jpg" alt="bmw"><div class="tover"><br>BMW</div></a></div><div class="box"><a href="https://en.wikipedia.org/wiki/Mahindra_Bolero"><img class="crs" src="data/bolero.jpg" alt="bolero"><div class="tover"><br>BOLERO</div></a></div>';
+        container.innerHTML+= '<div class="box"><a href="https://en.wikipedia.org/wiki/Audi"><img class="crs" src="audi.jpg" alt="audi"><div class="tover"><br>AUDI</div></a></div><div class="box"><a href="https://en.wikipedia.org/wiki/BMW"><img class="crs" src="bmw.jpg" alt="bmw"><div class="tover"><br>BMW</div></a></div><div class="box"><a href="https://en.wikipedia.org/wiki/Mahindra_Bolero"><img class="crs" src="bolero.jpg" alt="bolero"><div class="tover"><br>BOLERO</div></a></div>';
         l+=1;
     }
     else if(l==2)
